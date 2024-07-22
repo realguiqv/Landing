@@ -1,15 +1,15 @@
 body {
-  background-color: orange;
+  background-color: #5d5d5d;
   margin: auto;
 }
 
 header {
-  background-color:rgb(30, 30, 30);
+  background-color: #2c0101;
   display: flex;
   padding: 50px 0px;
   height: 10px;
   align-items: center;
-  justify-content:space-between;
+  justify-content:space-around;
 
 
 }
@@ -22,15 +22,12 @@ header {
 }
 
 nav {
-  background-color: red;
   display: flex;
   gap: 50px;
   margin-right: 10px;
   font-size: 20px;
   font-style: normal;
   font-family:'Lucida Sans';
-
-
 }
 
 nav a{
@@ -38,9 +35,28 @@ nav a{
   color: white;
 }
 
-.login {
-  background-color: blue;
-  font-size: 60px;
+/*.login {
+  background-color: purple;
+}
+  */
 
+.login a{
+  margin: 20px;
+  gap: 100px;
+}
 
+.signup {
+
+}
+
+.signup a {
+  font-size: 20px;
+  padding: 5px;
+  color: #2c0101;
+  background-color: aliceblue;
+  border-radius: 8px;
+    
+}
+.signup a:hover{
+  text-decoration: underline;
 }
