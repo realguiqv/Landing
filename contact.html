@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="shortcut icon" href="img/logo-white.png" type="image/x-icon" />
     <title>Mytra - Contact</title>
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="img/logo.png" alt="logotipo da empresa chamada Mytra" />
+        <img src="img/logo-white.png" alt="logotipo da empresa chamada Mytra" />
       </div>
       <nav>
         <a href="index.html">home</a>
@@ -26,30 +26,18 @@
     <main>
       <div class="formulario">
         <form method="post">
-          <input
-            type="text"
-            name="Name"
-            id="name-formulario"
-            placeholder="Name"
-          />
-          <input
-            type="text"
-            name="Name"
-            id="name-formulario"
-            placeholder="Name"
-          />
-          <input
-            type="text"
-            name="Name"
-            id="name-formulario"
-            placeholder="Name"
-          />
-          <input
-            type="text"
-            name="Name"
-            id="name-formulario"
-            placeholder="Name"
-          />
+          <label for="name-formulario">Name</label>
+          <input type="text" name="Name" id="name-formulario" required/>
+          <label for="name-formulario2">Last Name</label>
+          <input type="text" name="Name" id="name-formulario2" required/>
+          <label for="duvida1">First</label>
+          <input type="radio" name="duvida1" id="duvida1" required/>
+          <label for="duvida2">Second</label>
+          <input type="radio" name="duvida2" id="duvida2" required/>
+          <textarea name="msg" id="msg" placeholder="Enter message here..." required></textarea>
+          <input type="checkbox" name="aceitar" id="aceitar" required>
+          <label for="aceitar" required>I consent to being contacted by the team</label>
+          <input type="submit" value="Send">
         </form>
       </div>
     </main>
