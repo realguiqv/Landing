@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 body {
   background-image: url(/img/background-img.jpg);
   background-repeat: no-repeat;
@@ -5,15 +9,15 @@ body {
 
 }
 
+/* INICIO DO HEADER - MENU */
+
 header {
-  /*  background-color: #180101; */
+  background-color: rgba(0, 0, 0, 0.2);
   display: flex;
   padding: 50px 0px;
   height: 10px;
   align-items: center;
   justify-content: space-around;
-
-
 }
 
 .logo img {
@@ -29,7 +33,7 @@ nav {
   margin-right: 10px;
   font-size: 20px;
   font-style: normal;
-  font-family: 'Lucida Sans';
+  font-family: 'Work Sans';
 }
 
 nav a {
@@ -37,17 +41,10 @@ nav a {
   color: #fff2f3;
 }
 
-/*.login {
-  background-color: purple;
-}
-*/
-
 .login a {
   margin: 20px;
   gap: 100px;
 }
-
-.signup {}
 
 .signup a {
   font-size: 20px;
@@ -55,9 +52,47 @@ nav a {
   color: #2c0101;
   background-color: aliceblue;
   border-radius: 8px;
+}
+
+/* FINAL DO HEADER - MENU */
+
+main {
+
+  margin-top: 100px;
+  max-width: 1920px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-.signup a:hover {
-  text-decoration: underline;
+.formulario {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 100px;
+  padding-left: 50px;
+  align-items: center;
+}
+
+
+form {
+  background-color: white;
+  border: 1px solid #2c0101;
+  border-radius: 30px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: black;
+  height: 250px;
+}
+
+form h1 {
+  background-color: red;
+
+}
+
+.form-img img {
+  width: 500px;
 }
