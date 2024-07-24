@@ -4,7 +4,7 @@
 body {
   background-image: url(/img/background-img.jpg);
   background-repeat: no-repeat;
-  margin: 0px;
+  margin: auto;
 
 }
 
@@ -43,7 +43,6 @@ nav a {
 
 main {
   display: flex;
-  max-width: 1440px;
   flex-direction: column;
   margin: 100px;
   padding: 50px;
@@ -63,15 +62,14 @@ main {
   height: 450px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-sta;
-
 }
 
 .start-left h1 {
   color: white;
   font-family: 'Crimson Text';
-  font-size: 70px;
-
+  font-size: 80px;
+  max-width: 700px;
+  letter-spacing: 1px;
 }
 
 .start-left h2 {
@@ -79,14 +77,17 @@ main {
   font-family: 'Work Sans';
   font-weight: 400;
   letter-spacing: 3px;
-
-
+  max-width: 690px;
+  text-align: justify;
+  margin-top: 0px;
 }
 
 .start-left p {
   color: white;
   letter-spacing: 2px;
   font-family: 'Work Sans';
+  max-width: 680px;
+  text-align: justify;
 }
 
 .start-right {
@@ -109,14 +110,12 @@ main {
   flex-direction: column;
   padding: 10px;
   max-width: 170px;
-
 }
 
 .login form {
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 
 #button {
@@ -124,5 +123,7 @@ main {
   color: white;
   padding: 10px;
   border-radius: 10px;
-
+  font-family: 'Work Sans';
+  font-size: 15px;
+  font-weight: bold;
 }

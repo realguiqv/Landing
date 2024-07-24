@@ -17,7 +17,6 @@ header {
   align-items: center;
   justify-content: space-around;
   max-width: 1920px;
-
 }
 
 .logo img {
@@ -40,57 +39,69 @@ nav a {
   color: #fff2f3;
 }
 
-.login a {
-  margin: 20px;
-  gap: 100px;
-}
-
-.signup a {
-  font-size: 20px;
-  padding: 5px;
-  color: #2c0101;
-  background-color: aliceblue;
-  border-radius: 8px;
-}
-
 /* FINAL DO HEADER - MENU */
 
 main {
-  margin-top: 100px;
-  max-width: 1920px;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
-
-.formulario {
-  background-color: rgba(0, 0, 0, 0.2);
-  display: flex;
-  gap: 100px;
-  padding-left: 50px;
-  align-items: center;
-}
-
-
-form {
-  background-color: white;
-  border: 1px solid #2c0101;
-  border-radius: 30px;
-  padding: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  color: black;
-  height: 250px;
+  margin: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
-form h1 {
+.start-form {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  max-width: 1440px;
+  width: 1000px;
+}
+
+/* Possui bastante bgcolor pra ficar mais facil de visualizar (depois é removido). */
+
+.start-form-left form {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100%;
+
+}
+
+.start-form-left h1 {
+  background-color: blue;
+  color: white;
+  font-family: 'Crimson Text';
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+
+.start-form-left label {
   background-color: red;
-
 }
 
-.form-img img {
-  width: 500px;
+#name-formulario {
+  max-width: 200px;
+  height: 20px;
+}
+
+/*
+.start-form-right {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+  */
+
+.start-form-right img {
+  width: 400px;
+}
+
+.form-duvidas {
+  display: flex;
+}
+
+.termos {
+  display: flex;
 }

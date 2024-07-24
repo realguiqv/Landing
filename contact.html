@@ -24,23 +24,29 @@
       
     <main>
       
-      <div class="formulario">
+      <div class="start-form">
+        <div class="start-form-left">
         <form method="post">
           <h1>Contact Us</h1>
           <label for="name-formulario">Name</label>
           <input type="text" name="Name" id="name-formulario" required/>
           <label for="name-formulario2">Last Name</label>
           <input type="text" name="Name" id="name-formulario2" required/>
+          <div class="form-duvidas">
           <label for="duvida1">First</label>
           <input type="radio" name="duvida1" id="duvida1" required/>
           <label for="duvida2">Second</label>
           <input type="radio" name="duvida2" id="duvida2" required/>
+        </div>
           <textarea name="msg" id="msg" placeholder="Enter message here..." required></textarea>
+          <div class="termos">
           <input type="checkbox" name="aceitar" id="aceitar" required>
           <label for="aceitar" required>I consent to being contacted by the team</label>
+        </div>
           <input type="submit" value="Send">
         </form>
-        <div class="form-img">
+      </div>
+        <div class="start-form-right">
           <img src="/img/contact-img.svg" alt="">
         </div>
       </div>
