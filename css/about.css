@@ -40,3 +40,10 @@ nav a {
 }
 
 /* FINAL DO HEADER - MENU */
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  padding: 50px;
+}
