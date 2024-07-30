@@ -47,3 +47,52 @@ main {
   margin: 100px;
   padding: 50px;
 }
+
+.about {
+
+  display: flex;
+  max-width: 1440px;
+  height: 450px;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  width: 720px;
+  height: 450px;
+}
+
+.about-left h1 {
+  max-width: 700px;
+  color: white;
+  font-family: 'Work Sans';
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: justify;
+}
+
+.about-left p {
+  max-width: 680px;
+  color: white;
+  font-family: 'Work Sans';
+  text-align: justify;
+  letter-spacing: 2px;
+
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 450px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-right img {
+  width: 450px;
+}
