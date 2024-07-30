@@ -52,12 +52,12 @@ main {
 
 .start-form {
   display: flex;
+  max-width: 1440px;
+  width: 1000px;
   justify-content: center;
   align-items: center;
   gap: 120px;
   border-radius: 30px;
-  max-width: 1440px;
-  width: 1000px;
 }
 
 /* Possui bastante bgcolor pra ficar mais facil de visualizar (depois é removido). */
@@ -76,26 +76,26 @@ main {
 .start-form-left h1 {
   display: flex;
   justify-content: center;
-  color: white;
   font-family: 'Crimson Text';
+  color: white;
   letter-spacing: 1px;
   font-size: 40px;
 }
 
 .start-form-left label {
   display: flex;
+  margin: 1px;
+  gap: 20px;
   font-family: 'Work Sans';
   color: white;
-  gap: 20px;
-  margin: 1px;
 }
 
 .start-form-left p {
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Work Sans';
   color: white;
-  justify-content: center;
-  align-items: center;
 }
 
 #name-formulario {
@@ -135,12 +135,12 @@ main {
 }
 
 #send-button {
-  margin-left: 90px;
   background-color: black;
-  color: white;
+  margin-left: 90px;
   padding: 10px;
   border-radius: 10px;
   font-family: 'Work Sans';
+  color: white;
   font-size: 15px;
   font-weight: bold;
   max-width: 200px;

@@ -5,7 +5,6 @@ body {
   background-image: url(/img/background-img.jpg);
   background-repeat: no-repeat;
   margin: auto;
-
 }
 
 /* INICIO DO HEADER - MENU */
@@ -27,8 +26,8 @@ header {
 
 nav {
   display: flex;
-  gap: 50px;
   margin-right: 10px;
+  gap: 50px;
   font-size: 20px;
   font-style: normal;
   font-family: 'Work Sans';
@@ -51,53 +50,53 @@ main {
 .start {
   display: flex;
   max-width: 1440px;
-  gap: 100px;
   height: 450px;
+  gap: 100px;
   align-items: center;
   justify-content: center;
 }
 
 .start-left {
-  width: 720px;
-  height: 450px;
   display: flex;
   flex-direction: column;
+  width: 720px;
+  height: 450px;
 }
 
 .start-left h1 {
+  max-width: 700px;
   color: white;
   font-family: 'Crimson Text';
   font-size: 80px;
-  max-width: 700px;
   letter-spacing: 1px;
 }
 
 .start-left h2 {
+  margin-top: 0px;
+  max-width: 690px;
   color: white;
   font-family: 'Work Sans';
   font-weight: 400;
   letter-spacing: 3px;
-  max-width: 690px;
   text-align: justify;
-  margin-top: 0px;
 }
 
 .start-left p {
-  color: white;
-  letter-spacing: 2px;
-  font-family: 'Work Sans';
   max-width: 680px;
+  color: white;
+  font-family: 'Work Sans';
   text-align: justify;
+  letter-spacing: 2px;
 }
 
 .start-right {
-  justify-content: space-evenly;
-  align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   width: 400px;
   height: 450px;
+  justify-content: space-evenly;
+  align-items: center;
   gap: 30px;
 }
 
@@ -108,9 +107,8 @@ main {
 .login {
   display: flex;
   flex-direction: column;
-  padding: 10px;
   max-width: 170px;
-
+  padding: 10px;
 }
 
 .login form {

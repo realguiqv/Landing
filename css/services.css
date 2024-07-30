@@ -55,10 +55,10 @@ main {
 }
 
 .sedans {
-  display: flex;
-  width: 700px;
-  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  width: 700px;
   padding: 40px;
   border-radius: 10px 0px 0px 10px;
 }
@@ -69,11 +69,11 @@ main {
 }
 
 .sedans h1 {
+  margin-top: 30px;
   font-size: 35px;
   font-family: 'Big Shoulders Display';
   color: hsl(0, 0%, 95%);
   font-weight: 700;
-  margin-top: 30px;
 }
 
 .sedans p {
@@ -86,18 +86,18 @@ main {
 }
 
 .sedans a {
+  background-color: hsl(0, 0%, 95%);
   margin-top: 70px;
   display: flex;
-  font-family: 'Lexend Deca';
-  align-items: center;
-  justify-content: center;
   max-width: 160px;
   height: 50px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lexend Deca';
   text-decoration: none;
   border: 2px solid hsl(0, 0%, 95%);
   color: #7e161a;
   border-radius: 30px;
-  background-color: hsl(0, 0%, 95%);
 }
 
 .sedans a:hover {
@@ -109,10 +109,10 @@ main {
 
 
 .suvs {
-  display: flex;
-  width: 700px;
   background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
   flex-direction: column;
+  width: 700px;
   padding: 40px;
 }
 
@@ -121,11 +121,11 @@ main {
 }
 
 .suvs h1 {
+  margin-top: 30px;
   font-size: 35px;
   font-family: 'Big Shoulders Display';
   color: hsl(0, 0%, 95%);
   font-weight: 700;
-  margin-top: 30px;
 }
 
 .suvs p {
@@ -138,13 +138,13 @@ main {
 }
 
 .suvs a {
-  margin-top: 70px;
   display: flex;
-  font-family: 'Lexend Deca';
+  height: 50px;
+  max-width: 160px;
+  margin-top: 70px;
   align-items: center;
   justify-content: center;
-  max-width: 160px;
-  height: 50px;
+  font-family: 'Lexend Deca';
   text-decoration: none;
   color: #6c1416;
   border: 2px solid hsl(0, 0%, 95%);
@@ -158,10 +158,10 @@ main {
 }
 
 .luxury {
-  width: 700px;
   background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
+  width: 700px;
   padding: 40px;
   border-radius: 0px 10px 10px 0px;
 }
@@ -171,11 +171,11 @@ main {
 }
 
 .luxury h1 {
+  margin-top: 30px;
   font-size: 35px;
   font-family: 'Big Shoulders Display';
   color: hsl(0, 0%, 95%);
   font-weight: 700;
-  margin-top: 30px;
 }
 
 .luxury p {
@@ -188,13 +188,13 @@ main {
 }
 
 .luxury a {
-  margin-top: 70px;
   display: flex;
-  font-family: 'Lexend Deca';
+  height: 50px;
+  max-width: 160px;
+  margin-top: 70px;
   align-items: center;
   justify-content: center;
-  max-width: 160px;
-  height: 50px;
+  font-family: 'Lexend Deca';
   text-decoration: none;
   color: #5c1313;
   border: 2px solid hsl(0, 0%, 95%);
