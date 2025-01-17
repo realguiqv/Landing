@@ -5,7 +5,7 @@
 
 
 body {
-  background-image: url(/img/background-img.jpg);
+  background-image: url(/img/background-img-black.jpg);
   background-repeat: no-repeat;
   margin: auto;
 
@@ -13,7 +13,7 @@ body {
 
 /* INICIO DO HEADER - MENU */
 header {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.007);
   display: flex;
   padding: 50px 0px;
   height: 10px;
